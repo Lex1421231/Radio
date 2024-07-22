@@ -47,6 +47,10 @@
     cursor: pointer;
 }
 
+.medium {
+    font-size: 500;
+}
+
 .promo {
     /*min-height: 800px;*/
     background: url('../img/First_screen/Main_bg.jpeg') center center / cover no-repeat;
@@ -162,4 +166,89 @@
     font-size: 16px;
     font-weight: 300;
     text-align: center;
+}
+
+.info {
+    min-height: 564px;
+    background: #0f0b0b;
+    padding: 100px 0 140px 0;
+
+}
+
+.info__title {
+    color: rgb(249, 191, 59);
+    font-size: 30px;
+    text-align: right;
+}
+
+.info__text {
+    position: relative;
+    padding-left: 390px;
+    margin-top: 19px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: right;
+    z-index: 2;
+}
+
+.info__text.medium {
+    font-size: 500;
+}
+
+.info__img {
+    position: absolute;
+    top: 93px;
+    left: -83px;
+    z-index: 1;
+}
+
+.skills {
+    background: url('../img/After_completing_the_training/Bg.jpeg') center center / cover no-repeat;
+    padding: 80px 0 102px 0;
+}
+
+.skills__title {
+    color: rgb(239, 239, 239);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.skills__wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.skills__item {
+    width: 224px;
+}
+
+.skills__round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: rgb(249, 191, 59);
+    border-radius: 100%;
+}
+
+.skills__desc {
+    margin-top: 18px;
+    text-align: center;
+    color: rgb(239, 239, 239);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.present {
+    background: rgb(239, 239, 239);
+    height: 613px;
+}
+
+.present__img {
+    display: block;
+    margin-top: 82px;
 }

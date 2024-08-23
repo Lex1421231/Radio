@@ -57,3 +57,24 @@ html{font-family:Roboto}
 .footer__block{margin:0 auto;max-width:300px;text-align:center;color:#888;font-size:16px;font-weight:300;line-height:150%}
 .footer a{color:#888;font-size:16px;font-weight:300;line-height:150%;text-decoration:none}
 .footer .underlined{text-decoration:underline}
+@media (max-width:1024px){
+.info__text{padding-left:120px}
+}
+@media (max-width:640px){
+.title__colored{font-size:21px}
+.title__big{font-size:60px;line-height:80px}
+.intensive__descr{font-size:10px}
+.info__title{font-size:20px}
+.skills__title{font-size:20px}
+.skills__round{width:80px;height:80px}
+.skills__img{width:40px;height:40px}
+.webinar__img{max-width:480px}
+.webinar__title{font-size:26px}
+}
+@media (max-width:480px){
+.info__img{max-width:340px;left:30px}
+.info__text{padding-left:30px}
+.webinar__img{max-width:340px}
+.skills__round{width:40px;height:40px}
+.skills__img{width:20px;height:20px}
+}
